@@ -1,13 +1,4 @@
 const elegirEj = () => {
-    let eleccion = prompt("Elige la opción 1 ó 2:")[0];
-    if (eleccion == 1) {
-        ej1op1();
-    } else if (eleccion == 2) {
-        ej1op2();
-    } else {
-        return "No has elegido ninguna opción correcta.";
-    }
-
     /*Ejercicio 1 Opción 1*/
     function ej1op1() {
         /*Función que comprueba si un número es par*/
@@ -102,6 +93,15 @@ const elegirEj = () => {
         } else {
             alert(resultado);
         }
+    }
+
+    let eleccion = prompt("Elige la opción 1 ó 2:")[0];
+    if (eleccion == 1) {
+        ej1op1();
+    } else if (eleccion == 2) {
+        ej1op2();
+    } else {
+        alert("No has elegido ninguna opción correcta.");
     }
 }
 
