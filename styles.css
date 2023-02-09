@@ -1,0 +1,40 @@
+* {
+    line-height: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+span {
+    color:red;
+    font-weight: bold;
+}
+
+ol li:last-child {
+    font-style: italic;
+}
+
+.botones{        
+    display: flex;
+    border: 5px solid black;    
+    padding: 10px 15px;    
+    justify-content: space-around;    
+}
+
+input {
+    font-size: 1.1em;    
+    width: 250px;
+}
+
+.op {
+    color:blue;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
