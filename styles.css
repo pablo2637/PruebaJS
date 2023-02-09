@@ -14,7 +14,7 @@ span {
     font-weight: bold;
 }
 
-ol li:last-child {
+ol > li:last-child {
     font-style: italic;
 }
 
@@ -30,8 +30,12 @@ input {
     width: 250px;
 }
 
+input:hover {
+    font-weight: bold;
+}
+
 .op {
-    color:blue;
+    color:rgb(14, 165, 1);
 }
 
 h2 {
