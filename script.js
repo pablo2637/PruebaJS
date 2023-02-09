@@ -107,7 +107,7 @@ const elegirEj = () => {
 
 /*Ejercicio 2*/
 const ej2 = () => {
-    let frase = prompt("Escribe una frase, la que quieras (espacios extrictos):");
+    let frase = prompt("Escribe una frase, la que quieras (espacios estrictos):");
     let espacios = frase.split(" ");
 
     if (espacios.length == 1) {
